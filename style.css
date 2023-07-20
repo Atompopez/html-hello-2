@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#padre{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#hijo1{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+#nieto1{
+    display: flex;
+}
+#nieto1 >*{
+    padding: 8px;
+    margin: auto;
+}
+#puntos{
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    margin: auto 0;
+}
+#imgHTML{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+#texto{
+    margin: auto;
+}
+#texto > * {
+    margin: 0;
+}
+#pie{
+    display: flex;
+    justify-content: space-between;
+}
+#iconos{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 8px;
+    width: 30%;
+    height: 60px;
+}
+#save{
+    padding: 10px;
+    margin: auto 10px;
+}
+#texto2 > p{
+    margin: 16px;
+}
+.img{
+    width: 32px;
+    height: 32px;
+}
